@@ -1,0 +1,34 @@
+{
+  "name": "passport-mbed-oauth2",
+  "version": "0.0.1",
+  "description": "mbed (OAuth2) authorization strategies for Passport.",
+  "keywords": [
+    "passport",
+    "mbed",
+    "auth",
+    "authz",
+    "authorization",
+    "identity"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ARMmbed/passport-mbed-oauth2.git"
+  },
+  "bugs": {
+    "url": "http://github.com/ARMmbed/passport-mbed-oauth2/issues"
+  },
+  "author": {
+    "name": "Andy Pritchard",
+    "email": "andy.pritchard@arm.com"
+  },
+  "licenses": [
+    {
+      "type": "closed"
+    }
+  ],
+  "main": "./lib/passport-mbed-oauth2",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "*"
+  }
+}
