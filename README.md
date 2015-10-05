@@ -3,7 +3,7 @@
 using OAuth 2.0.
 
 This module lets you authenticate using mbed in your Node.js applications.
-By plugging into Passport, Coggle authentication can be easily and
+By plugging into Passport, mbed authentication can be easily and
 unobtrusively integrated into any application or framework that supports
 [Connect](http://www.senchalabs.org/connect/)-style middleware, including
 [Express](http://expressjs.com/).
@@ -13,12 +13,12 @@ unobtrusively integrated into any application or framework that supports
 
 ## Usage
 #### Configure Strategy
-The Coggle OAuth 2.0 authentication strategy authenticates users by their
-Coggle login, and OAuth 2.0 tokens. The strategy requires a `verify` callback, which
+The mbed OAuth 2.0 authentication strategy authenticates users by their
+mbed login, and OAuth 2.0 tokens. The strategy requires a `verify` callback, which
 accepts these credentials and calls `done` providing a user, as well as
 `options` specifying a client ID, client secret, and callback URL.
 
-    var CoggleStrategy = require('passport-mbed-oauth2').OAuth2Strategy;
+    var MbedStrategy = require('passport-mbed-oauth2').OAuth2Strategy;
 
     passport.use(new MbedStrategy({
         clientID: CLIENT_ID,
