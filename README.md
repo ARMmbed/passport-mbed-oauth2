@@ -1,9 +1,10 @@
-# Passport-mbed-OAuth2
-[Passport](http://passportjs.org/) strategies for authenticating with [mbed](http://mbed.com/)
+# Mbed OAuth2 Passport
+
+[Passport](http://passportjs.org/) strategies for authenticating with [Mbed](http://mbed.com/)
 using OAuth 2.0.
 
-This module lets you authenticate using mbed in your Node.js applications.
-By plugging into Passport, mbed authentication can be easily and
+This module lets you authenticate using Mbed in your Node.js applications.
+By plugging into Passport, Mbed authentication can be easily and
 unobtrusively integrated into any application or framework that supports
 [Connect](http://www.senchalabs.org/connect/)-style middleware, including
 [Express](http://expressjs.com/).
@@ -13,8 +14,8 @@ unobtrusively integrated into any application or framework that supports
 
 ## Usage
 #### Configure Strategy
-The mbed OAuth 2.0 authentication strategy authenticates users by their
-mbed login, and OAuth 2.0 tokens. The strategy requires a `verify` callback, which
+The Mbed OAuth 2.0 authentication strategy authenticates users by their
+Mbed login, and OAuth 2.0 tokens. The strategy requires a `verify` callback, which
 accepts these credentials and calls `done` providing a user, as well as
 `options` specifying a client ID, client secret, and callback URL.
 
