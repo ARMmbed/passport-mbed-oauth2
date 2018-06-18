@@ -1,7 +1,10 @@
 {
   "name": "passport-mbed-oauth2",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Mbed (OAuth2) authorization strategies for Passport.",
+  "engines": {
+    "node": "6.11.3"
+  },
   "keywords": [
     "passport",
     "mbed",
